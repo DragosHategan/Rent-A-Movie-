@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/descriptionstyle.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <script src="https://kit.fontawesome.com/c1df782baf.js" ></script>
+    <title>Movie Description</title>
+</head>
+<body>
+    
+    <div class="navbar">
+        
+        <div class="search">
+        <input type="text" placeholder="Search..">
+        <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+
+        <a href="http://127.0.0.1:3000/main.html">Home</a>
+        <a href="http://127.0.0.1:5500/Login.html">Sign in</a>
+
+        
+        <a href="#">Cart🛒</a>
+    </div>
+    
+    
+    <div class="main-container">
+    
+    
+    <div class="ImageAndRent">
+        <img src="/images/TheMatrix.jpg">
+    </div>
+    
+
+    <div class="secondary-container">
+        <h1>The Matrix</h1>
+        <p>When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.</p>
+        
+        <h2>Rating</h2>
+
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+
+        <div class="actors">
+            <h2>Actors</h2>
+            <p>Keanu Reeves <img src="/Images/JohnWick1.jfif">
+               Carrie-Anne Moss <img src="/Images/TheMatrix1.jfif">
+                Laurence Fishburne <img src="/Images/JohnWick3.jfif">
+                </p>
+                
+        </div>
+
+        <button class="rent">Rent Movie</button>
+        <button class="watch-trailer">Watch trailer</button>
+        
+        
+    </div>
+
+    
+    <div class="trailer active">
+        <video controls>
+            <source src="/Videos/Midsommar_trailer.mp4" controls="true"></video>
+            <i class="fas fa-times fa-2x exit"></i>
+    </div>    
+    
+    </div>
+    <script src="/descriptionscript.js"></script>
+    <script src="/darkModeToggle.js"></script>
+</body>
+
+</html>
